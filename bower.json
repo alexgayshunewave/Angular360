@@ -1,7 +1,7 @@
 {
   "name": "Angular360",
   "main": "angular360.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/ejeinc/Angular360",
   "authors": [
     "matsuo <matsuo@eje-c.com>"
@@ -19,9 +19,11 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "demo.html",
+    "img/*"
   ],
   "dependencies": {
-    "angular": "~1.2.22"
+    "angular": "~1.4.1"
   }
 }
