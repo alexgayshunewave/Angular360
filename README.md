@@ -2,7 +2,7 @@
 
 360 degree panorama VR library for AngularJS. [Sample](http://ejeinc.github.io/Angular360/)
 
-## How to use
+## How to use (view sample)
 
 ```
 $ git clone https://github.com/ejeinc/Angular360.git
@@ -19,9 +19,9 @@ and open `demo.html` in browser.
 $ bower install angular360
 ```
 
-or, simply download and include [angular360.css](https://github.com/ejeinc/Angular360/blob/master/angular360.css) and [angular360.js](https://github.com/ejeinc/Angular360/blob/master/angular360.js).
+or, simply download and include [angular360.css](https://github.com/ejeinc/Angular360/blob/master/angular360.css) and [angular360.js](https://github.com/ejeinc/Angular360/blob/master/angular360.js) to your HTML.
 
-## Example HTML.
+## Example HTML
 
 ```HTML
 <!DOCTYPE html>
