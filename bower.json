@@ -21,7 +21,7 @@
     "test",
     "tests",
     "demo.html",
-    "img/*"
+    "img"
   ],
   "dependencies": {
     "angular": "~1.4.1"
