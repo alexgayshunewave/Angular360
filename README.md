@@ -8,7 +8,7 @@
 $ bower install angular360
 ```
 
-or, simply [download](https://github.com/ejeinc/Angular360/archive/master.zip) and include `angular360.css` and `angular360.js` files.
+or, simply download and include [angular360.css](https://github.com/ejeinc/Angular360/blob/master/angular360.css) and [angular360.js](https://github.com/ejeinc/Angular360/blob/master/angular360.js).
 
 ## Example HTML.
 
@@ -18,7 +18,7 @@ or, simply [download](https://github.com/ejeinc/Angular360/archive/master.zip) a
 <head>
   <title>Angular360</title>
   <!-- Include CSS -->
-  <link rel="stylesheet" type="text/css" href="bower_components/angular-360/angular360.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/angular360/angular360.css">
 </head>
 <body>
   <!-- Put <vr-cube> element -->
@@ -28,7 +28,7 @@ or, simply [download](https://github.com/ejeinc/Angular360/archive/master.zip) a
   <script src="bower_components/angular/angular.min.js"></script>
 
   <!-- Include JS -->
-  <script src="bower_components/angular-360/angular360.js"></script>
+  <script src="bower_components/angular360/angular360.js"></script>
   <script type="text/javascript">
     // Add 'Angular360' to your module dependencies
     angular.module('myApp', ['Angular360']);
