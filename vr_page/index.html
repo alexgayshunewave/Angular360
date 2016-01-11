@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="VRPage">
+
+<head>
+  <title>Angular360</title>
+  <link rel="stylesheet" type="text/css" href="/angular360.css">
+  <style>
+  .vr-face {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    outline: 1px solid gray;
+  }
+  
+  .vr-face-front {
+    background: #EF9A9A;
+  }
+  
+  .vr-face-right {
+    background: #F48FB1;
+  }
+  
+  .vr-face-back {
+    background: #CE93D8;
+  }
+  
+  .vr-face-left {
+    background: #B39DDB;
+  }
+  
+  .vr-face-top {
+    background: #9FA8DA;
+  }
+  
+  .vr-face-bottom {
+    background: #90CAF9;
+  }
+  </style>
+</head>
+
+<body>
+  <vr-cube front-url="front.html" left-url="left.html" right-url="right.html" back-url="back.html" top-url="top.html" bottom-url="bottom.html"></vr-cube>
+  <script src="/bower_components/angular/angular.min.js"></script>
+  <script src="/angular360.js"></script>
+  <script type="text/javascript">
+  angular.module('VRPage', ['Angular360']);
+  </script>
+</body>
+
+</html>
