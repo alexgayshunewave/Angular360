@@ -1,7 +1,7 @@
 {
   "name": "Angular360",
   "main": "angular360.js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/ejeinc/Angular360",
   "authors": [
     "matsuo <matsuo@eje-c.com>"
