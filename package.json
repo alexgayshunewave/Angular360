@@ -1,0 +1,13 @@
+{
+    "name": "Angular360",
+    "version": "0.1.3",
+    "author": "matsuo <matsuo@eje-c.com>",
+    "description": "360 degree panorama VR library for AngularJS.",
+    "license": "MIT",
+    "scripts": {
+        "start": "angular360.js"
+    },
+    "dependencies": {
+        "angular": "~1.4.8"
+    }
+}
